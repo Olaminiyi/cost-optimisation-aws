@@ -10,7 +10,7 @@ If SnapshotId is missing, your code will raise a KeyError and crash.
 
 In AWS describe_snapshots, the SnapshotId field is always present for every snapshot, so it’s safe and standard to use snapshot['SnapshotId'].
 
-2. Using snapshot.get('SnapshotId')
+2. Using snapshot.get('SnapshotId').
 
 This is safer because if the key is missing, it won’t crash — it will just return None (or a default value if you set one, e.g. .get('SnapshotId', 'unknown')).
 
