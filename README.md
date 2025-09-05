@@ -1,6 +1,6 @@
 # cost-optimisation-aws
 
-Getting fields from snapshots using .get() and [] access
+Getting fields from snapshots using .get() and [ ] access
 
 1. Using snapshot['SnapshotId']
 
