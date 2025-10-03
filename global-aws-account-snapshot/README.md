@@ -8,7 +8,7 @@ We’ll use:
 
 - EC2 client → to fetch snapshots from each account.
 
-## Step 1: Setup Cross-Account IAM Role
+## Step 1: Setup Cross-Account IAM Role.
 
 In each developer’s AWS account, create a role called SnapshotAuditRole with:
 
