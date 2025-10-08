@@ -2,6 +2,7 @@ import boto3
 from botocore.exceptions import ClientError
 from datetime import datetime, timezone, timedelta
 
+
 ORG_ROLE_NAME = "SnapshotAuditRole"
 
 def assume_role(account_id, role_name):
