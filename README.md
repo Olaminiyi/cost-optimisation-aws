@@ -14,7 +14,7 @@ In AWS describe_snapshots, the SnapshotId field is always present for every snap
 
 This is safer because if the key is missing, it won’t crash — it will just return None (or a default value if you set one, e.g. .get('SnapshotId', 'unknown')).
 
-It’s usually used for optional fields that may or may not be present. For example, VolumeId is sometimes missing (e.g. for snapshots copied from another region), which is why .get() is used there
+It’s usually used for optional fields that may or may not be present. For example, VolumeId is sometimes missing (e.g. for snapshots copied from another region), which is why .get() is used there.
 
 
 
