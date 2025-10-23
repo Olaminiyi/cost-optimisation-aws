@@ -28,7 +28,7 @@ def lambda_handler(event, context):
                 continue
 
             if not volume_id:
-                # No source volume recorded 
+                # No source volume recorded.
                 try:
                     ec2.delete_snapshot(SnapshotId=snapshot_id, DryRun=True)
                 except ClientError as e:
