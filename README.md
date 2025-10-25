@@ -1,4 +1,4 @@
-# cost-optimisation-aws.
+# cost-optimisation-aws
 
 Getting fields from snapshots using .get() and [ ] access.
 
