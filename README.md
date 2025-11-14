@@ -4,7 +4,7 @@ Getting fields from snapshots using .get() and [ ] access
 
 1. Using snapshot['SnapshotId']
 
-This assumes the key must exist.
+This assumes the key must exist
 
 If SnapshotId is missing, your code will raise a KeyError and crash.
 
