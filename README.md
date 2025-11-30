@@ -6,7 +6,7 @@ Getting fields from snapshots using .get() and [ ] access
 
 This assumes the key must exist
 
-If SnapshotId is missing, your code will raise a KeyError and crash.
+If SnapshotId is missing, your code will raise a KeyError and crash
 
 In AWS describe_snapshots, the SnapshotId field is always present for every snapshot, so it’s safe and standard to use snapshot['SnapshotId'].
 
